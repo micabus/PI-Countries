@@ -10,7 +10,7 @@ const router = Router();
 
 
 
-/* router.get("/", getApiInfo); */
+router.get("/all", getApiInfo);
 router.get("/:idL", getById);
 router.get("/", getByName);
 
